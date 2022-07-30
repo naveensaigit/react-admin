@@ -21,7 +21,7 @@ export const EditView = (props: EditViewProps) => {
         aside,
         children,
         className,
-        component: Content = Card,
+        component: Content = Card as any,
         title,
         mutationMode,
         ...rest

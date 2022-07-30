@@ -31,7 +31,7 @@ export const ListView = <RecordType extends RaRecord = any>(
         pagination = defaultPagination,
         children,
         className,
-        component: Content = DefaultComponent,
+        component: Content = DefaultComponent as any,
         title,
         empty = defaultEmpty,
         ...rest

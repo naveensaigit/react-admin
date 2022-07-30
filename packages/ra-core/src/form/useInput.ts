@@ -142,6 +142,6 @@ export type UseInputValue = {
     id: string;
     isRequired: boolean;
     field: ControllerRenderProps;
-    formState: UseFormStateReturn<Record<string, string>>;
+    formState: any;
     fieldState: ControllerFieldState;
 };

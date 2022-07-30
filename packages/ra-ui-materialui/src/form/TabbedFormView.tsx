@@ -28,7 +28,7 @@ export const TabbedFormView = (props: TabbedFormViewProps): ReactElement => {
     const {
         children,
         className,
-        component: Component = DefaultComponent,
+        component: Component = DefaultComponent as any,
         formRootPathname,
         syncWithLocation = true,
         tabs = DefaultTabs,

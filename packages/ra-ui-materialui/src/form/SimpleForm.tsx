@@ -40,7 +40,7 @@ export const SimpleForm = (props: SimpleFormProps) => {
     const {
         children,
         className,
-        component: Component = DefaultComponent,
+        component: Component = DefaultComponent as any,
         sx,
         toolbar = DefaultToolbar,
         ...rest

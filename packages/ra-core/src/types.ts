@@ -324,10 +324,10 @@ export interface ResourceOptions {
 export interface ResourceProps {
     intent?: 'route' | 'registration';
     name: string;
-    list?: ComponentType<any> | ReactElement;
-    create?: ComponentType<any> | ReactElement;
-    edit?: ComponentType<any> | ReactElement;
-    show?: ComponentType<any> | ReactElement;
+    list?: ComponentType<any> | ReactElement | any;
+    create?: ComponentType<any> | ReactElement | any;
+    edit?: ComponentType<any> | ReactElement | any;
+    show?: ComponentType<any> | ReactElement | any;
     icon?: ComponentType<any>;
     options?: ResourceOptions;
 }

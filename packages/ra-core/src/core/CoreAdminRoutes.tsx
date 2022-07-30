@@ -124,12 +124,12 @@ CoreAdminRoutes.defaultProps = {
 };
 
 export interface CoreAdminRoutesProps extends CoreLayoutProps {
-    layout: LayoutComponent;
-    catchAll: CatchAllComponent;
+    layout: any;
+    catchAll: any;
     children?: AdminChildren;
-    loading: LoadingComponent;
+    loading: any;
     requireAuth?: boolean;
-    ready?: ComponentType;
+    ready?: any;
 }
 
 const defaultAuthParams = { route: 'dashboard' };

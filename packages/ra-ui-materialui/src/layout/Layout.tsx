@@ -19,13 +19,13 @@ import { useSidebarState } from './useSidebarState';
 
 export const Layout = (props: LayoutProps) => {
     const {
-        appBar: AppBar = DefaultAppBar,
+        appBar: AppBar = DefaultAppBar as any,
         children,
         className,
         dashboard,
         error: errorComponent,
-        menu: Menu = DefaultMenu,
-        sidebar: Sidebar = DefaultSidebar,
+        menu: Menu = DefaultMenu as any,
+        sidebar: Sidebar = DefaultSidebar as any,
         title,
         ...rest
     } = props;

@@ -19,7 +19,7 @@ import { useResetErrorBoundaryOnLocationChange } from './useResetErrorBoundaryOn
 
 export const Error = (
     props: InternalErrorProps & {
-        errorComponent?: ComponentType<ErrorProps>;
+        errorComponent?: any;
     }
 ) => {
     const {

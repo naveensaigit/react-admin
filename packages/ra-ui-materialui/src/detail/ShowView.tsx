@@ -17,7 +17,7 @@ export const ShowView = (props: ShowViewProps) => {
         aside,
         children,
         className,
-        component: Content = Card,
+        component: Content = Card as any,
         emptyWhileLoading = false,
         title,
         ...rest

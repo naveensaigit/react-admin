@@ -15,7 +15,7 @@ export const CreateView = (props: CreateViewProps) => {
         aside,
         children,
         className,
-        component: Content = Card,
+        component: Content = Card as any,
         title,
         ...rest
     } = props;

@@ -91,4 +91,4 @@ const WithPermissions = (props: WithPermissionsProps) => {
     }
 };
 
-export default WithPermissions as ComponentType<WithPermissionsProps>;
+export default WithPermissions as any;

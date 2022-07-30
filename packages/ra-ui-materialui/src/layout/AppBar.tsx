@@ -62,7 +62,7 @@ export const AppBar: FC<AppBarProps> = memo(props => {
         open,
         title,
         userMenu = DefaultUserMenu,
-        container: Container = HideOnScroll,
+        container: Container = HideOnScroll as any,
         ...rest
     } = props;
 
